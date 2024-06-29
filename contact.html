@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="nk.jpeg">
+    <title>My Website</title>
 </head>
-<body>
-    <h2>hello this is contact page </h2>
-    <a href="index.html">home page</a>
-    please follow me on instagram
+
+<body class="bg-pink-100">
+    <div class="bg-white p-8 m-8">
+        <!-- navbar start here -->
+
+        <nav
+            class=" p-2 w-full h-14 bg-pink-800 text-white flex justify-between px-4 items-center md:px-4 border-spacing-2 rounded-xl">
+            <div text-2xl text-white font-bold>My Website</div>
+            <ul class="md:flex hidden font-semibold">
+                <li class="mx-[10px] cursor-pointer"><a href="index.html">Home</a></li>
+                <li class="mx-[10px] cursor-pointer"><a href="about.html">About</a></li>
+                <li class="mx-[10px] cursor-pointer"><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="md:hidden">
+                <a href="#">&#8801;</a>
+            </div>
+
+        </nav>
+
+        <!-- navbar ends here -->
+
+       <!-- header start  -->
+
+       <header class=" text-center">
+        <div class="text-6xl">
+            <p class=" space-x-4 items-center text-pink-800 ">Contact us</p>
+            
+        </div>
+
+        <div class="pt-3 border-pink-700 flex items-center justify-center ">
+            <form action="" class="bg-pink-100  space-y-4 space-x-4 w-1/2  rounded shadow-md border-pink-800 border-2 rounded-sm">
+                <input type="text" placeholder="First Name" class="border  border-pink-800 border-2 rounded-md p-2 ml-4">
+                <input type="text" placeholder="Last Name" class="border  border-pink-800 border-2 rounded-md p-2"><br><br>
+                <input type="email" placeholder="Email" class="border  border-pink-800 border-2 rounded-md p-2"><br><br>
+                <textarea name="text" id="text" cols="30" rows="4" placeholder="Message" class="border border-pink-800 border-2 rounded-md p-2"></textarea><br><br>
+               
+                <div class="button my-4">
+                    <button class="text-sm bg-pink-800 px-4 py-2 rounded-2xl text-bold text-white hover:bg-pink-100 hover:text-pink-800 border-pink-800 border-2 ">Submit</button>
+                </div>
+                <br>
+               
+            </form>
+
+        </div>
+    </header>
+
+    <!-- header end  -->
+
+    <!-- footer start  -->
+
+    <footer class="bg-pink-800 text-blue-950 border-spacing-2  roundend-xl m-5 p-5">
+        <div class="text-center">
+            <p class=" text-white">Email</p>
+            <a href="mailto:nehakavaiya5@gmail.com" class="text-blue-100">nehakavaiya5@gmail.com</a>
+        </div>
+    </footer>
+
+    <!-- footer end  -->
+    </div>
 </body>
+
 </html>
